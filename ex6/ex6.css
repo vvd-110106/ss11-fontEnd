@@ -37,10 +37,8 @@ section {
 }
 .feature:nth-last-child(2) {
     background-color: #0bf0f0;
-    order: 5;
 }
 .feature:nth-last-child(1) {
-    order: 4;
     background-color: #f09a9d;
 }
 
