@@ -1,0 +1,64 @@
+body {
+    border: 1px solid rgb(221, 216, 216);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    background-color: red;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+aside:nth-of-type(1) {
+    background-color: rgb(52, 236, 52);
+    width: 100%;
+    height: 80px;
+}
+
+aside:nth-of-type(2) {
+    background-color: pink;
+    width: 100%;
+    height: 80px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+section {
+    margin-top: 20px;
+    background-color: hotpink;
+    margin-bottom: 20px;
+    height: 60px;
+}
+footer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+footer div:nth-child(1) {
+    background-color: rgb(157, 230, 129);
+    width: 100%;
+    height: 80px;
+}
+footer div:nth-child(2) {
+    background-color: rgb(255, 217, 0);
+    width: 100%;
+    height: 80px;
+}
+footer div:nth-child(3) {
+    background-color: rgb(146, 216, 216);
+    width: 100%;
+    height: 80px;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px) {
+    footer {
+        flex-direction: column;
+    }
+}
